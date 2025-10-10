@@ -1,0 +1,75 @@
+✅ VMware Workstation에서 **Host ↔ Ubuntu(Guest)** 간 복사/붙여넣기 공유를 설정하려면 아래 단계를 따르면 돼요.
+(이건 VMware Tools 또는 Open VM Tools 설치가 필요해요.)
+
+---
+
+### 🧩 1. VMware 설정 확인
+
+1. VMware 메뉴에서
+   **Player → Manage → Virtual Machine Settings** 열기
+2. **Options 탭 → Guest Isolation** 선택
+3. 다음 두 항목을 모두 체크:
+
+   * ✅ *Enable copy and paste*
+   * ✅ *Enable drag and drop*
+4. **OK** 눌러 저장
+
+---
+
+### 🧰 2. Ubuntu 안에서 VMware Tools 설치
+
+Ubuntu 터미널에서 다음 명령을 실행하세요:
+
+```bash
+sudo apt update
+sudo apt install open-vm-tools open-vm-tools-desktop -y
+```
+
+이후 재부팅:
+
+```bash
+sudo reboot
+```
+
+---
+
+### 🧠 3. 재부팅 후 테스트
+
+재부팅이 끝나면
+
+* Host PC → Ubuntu 터미널 또는 텍스트 파일로 복사/붙여넣기
+* Ubuntu → Host PC 로 복사/붙여넣기
+
+양방향이 정상적으로 작동하는지 확인합니다.
+
+---
+
+### 🧩 4. 안 될 경우 점검
+
+* VMware Player가 최신 버전인지 확인
+* Ubuntu GUI (GNOME, Xfce 등)가 정상 동작 중인지 확인
+* `open-vm-tools`가 백그라운드에서 실행 중인지:
+
+  ```bash
+  systemctl status vmtoolsd
+  ```
+
+  “active (running)” 상태여야 정상입니다.
+
+---
+
+복사 붙여넣기 외에 **파일 드래그 앤 드롭**도 같은 설정으로 가능합니다.
+만약 여전히 안 된다면 `vmtoolsd` 서비스가 비활성화됐을 가능성이 있으니 다시 시작해보세요:
+
+```bash
+sudo systemctl restart vmtoolsd
+```
+
+---
+
+**Q1.** `open-vm-tools` 대신 VMware Tools를 수동으로 설치하면 어떤 차이가 있나요?
+
+**Q2.** 복사/붙여넣기가 안 될 때 `vmware-user` 프로세스가 왜 중요한가요?
+
+**Q3.** 만약 Ubuntu가 최소 GUI 환경일 때 (예: i3, LXDE), 복사 공유를 가능하게 하려면 어떤 추가 설정이 필요할까요?
+
