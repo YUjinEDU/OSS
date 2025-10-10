@@ -1,3 +1,8 @@
+
+this is eqkrmqekemfkm
+
+
+
 ✅ VMware Workstation에서 **Host ↔ Ubuntu(Guest)** 간 복사/붙여넣기 공유를 설정하려면 아래 단계를 따르면 돼요.
 (이건 VMware Tools 또는 Open VM Tools 설치가 필요해요.)
 
