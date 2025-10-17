@@ -1,0 +1,138 @@
+sudo apt install open-vm-tools open-vm-tools-desktop -y
+ls
+cd Desktop/
+ls
+cd OSS
+git lod
+git log
+vim test.txt 
+git add test.txt 
+git commit -m "3 commit"
+git log
+vim test.txt 
+git add test.txt 
+git commit -m "4 commit"
+git log
+[200~그리고 다시 재부팅 해주면 끝이다.~
+그리고 다시 재부팅 해주면 끝이다.
+ls
+cd Desktop/
+ls
+git config --global core.editor “vim”
+mkdir OSS
+ls
+cd OSS
+git init .
+git status
+vim
+sudo apt install neovim
+sudo apt install vim
+vim test.txt
+git add test.txt 
+git status
+git commit -m "first commit"
+git status
+git logo
+git log
+git diff
+vim test.txt 
+git commit -am "2commit"
+git diff
+git status
+git log
+git add .
+git commit -am "2commit"
+git log
+git diff
+git diff --stat
+git diff -p
+git commit -am "2commit"
+git log
+git diff
+git log -p
+cd Desktop/OSS/
+git log
+git diff
+git diff test.txt
+vim test.txt 
+git diff
+git log
+git reset 427d16d339c1a6276ca7249155825a628c01fe2a
+vim test.txt 
+git status
+git reset 427d16d339c1a6276ca7249155825a628c01fe2a
+git add test.txt 
+git commit -m "5 commit"
+git reset 427d16d339c1a6276ca7249155825a628c01fe2a
+vim test.txt 
+git logo
+git log
+git reset --hard 12a7c8dcb134f484dab1646b2e4e87d7ebc92747
+vim test.txt 
+git log
+git revert 427d16d339c1a6276ca7249155825a628c01fe2a
+git log
+git log -p
+vim test.txt 
+git add test.txt 
+git commit -m "3 com"
+git log
+gif log p
+gif log -p\
+gif log -p
+git log -p
+git log
+vim test.txt 
+git diff
+git add test.txt 
+git commit -m "4 com"
+git log
+git log -p
+git reset -hard 34173ff28143b5121c40b3ed52c340abd677cece
+git reset --hard 34173ff28143b5121c40b3ed52c340abd677cece
+vim test.txt 
+git log
+git revert 34173ff28143b5121c40b3ed52c340abd677cece
+git log -p
+git config --global core.editor "vim"
+git revert 34173ff28143b5121c40b3ed52c340abd677cece
+git add test.txt 
+git status
+ls
+git add .
+git status
+git log
+git commit -m "4 com"
+git revert 34173ff28143b5121c40b3ed52c340abd677cece
+git log
+vim test.txt 
+git add test.txt 
+git commit -m "init"
+git log
+vim test.txt 
+git add test.txt 
+git commit -m "first"
+vim test.txt 
+git add test.txt 
+git commit -m "two"
+git log
+git log -p
+git reset --hard bed062fdde144532fcdb2529b8baa547671cccfc
+vim test.txt 
+git revert bed062fdde144532fcdb2529b8baa547671cccfc
+vim test.txt 
+git revert bed062fdde144532fcdb2529b8baa547671cccfc
+git log
+sl
+ls
+vim test.txt 
+git reset --hard bed062fdde144532fcdb2529b8baa547671cccfc
+vim test.txt 
+git revert bed062fdde144532fcdb2529b8baa547671cccfc
+git log
+vim test.txt 
+git reset --hard bed062fdde144532fcdb2529b8baa547671cccfc
+vim test.txt 
+git log
+histroy -w week5_cmd
+history -w week5_cmd
