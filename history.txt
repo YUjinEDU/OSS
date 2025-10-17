@@ -1,0 +1,217 @@
+    2  10/10/2025 16:38  chsh -s /usr/bin/zsh
+    3  10/10/2025 16:39  sd
+    4  10/10/2025 16:39  echo $SHELL
+    5  10/10/2025 16:39  bash
+    9  10/10/2025 16:39  vim test.txt
+   11  10/10/2025 16:40  git commit -m "zsh"
+   12  10/10/2025 16:44  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   17  10/10/2025 16:46  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+   18  10/10/2025 16:46  vim ~/.zshrc
+   19  10/10/2025 16:47  echo "source ${(q-)PWD}/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> ${ZDOTDIR:-$HOME}/.zshrc
+   21  10/10/2025 16:47  cd zsh-syntax-highlighting
+   26  10/10/2025 16:47  cd Desktop
+   28  10/10/2025 16:47  cd OSS
+   31  10/10/2025 16:48  git clone https://github.com/agkozak/zsh-z $ZSH_CUSTOM/plugins/zsh-z
+   35  10/10/2025 16:48  cd dev/Oss
+   44  10/10/2025 16:49  z Desktop
+   45  10/10/2025 16:50  git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf\n~/.fzf/install
+   46  10/10/2025 16:50  ~/.fzf/install
+   47  10/10/2025 16:50  source <(fzf --zsh)
+   48  10/10/2025 16:50  . ~/.zshrc
+   49  10/10/2025 16:50  fzf
+   52  10/10/2025 16:51  z /home/yujin_park/Desktop/OSS
+   54  10/10/2025 16:51  cat test.txt
+   56  10/10/2025 16:57  sudo apt install openssh-server -y
+   58  10/10/2025 16:58  sudo apt install open-vm-tools open-vm-tools-desktop -y\nsudo reboot
+   59  10/10/2025 16:59  cd /mnt/hgfs
+   61  10/10/2025 17:00  cd Videos
+   66  10/10/2025 17:00  cd /
+   68  10/10/2025 17:00  cd mnt
+   71  10/10/2025 17:02  sudo mkdir -p /mnt/hgfs\n
+   73  10/10/2025 17:02  sudo vmhgfs-fuse .host:/ /mnt/hgfs -o allow_other\n
+   75  10/10/2025 17:02  ls /mnt/hgfs\n
+   77  10/17/2025 14:11  zsh
+   81  10/17/2025 14:13  vi test.txt
+   83  10/17/2025 14:13  git add test.txt
+   84  10/17/2025 14:13  git commit -m "10/17"
+   91  10/17/2025 14:23  rm p
+   93  10/17/2025 14:23  rm ss
+   95  10/17/2025 14:23  vi week5_cmd
+   97  10/17/2025 14:30  mkdir assigmnet
+   98  10/17/2025 14:30  mv week5_cmd assigmnet
+  101  10/17/2025 14:31  git push
+  102  10/17/2025 14:32  git remote add origin https://github.com/YUjinEDU/OSS.git
+  103  10/17/2025 14:32  git branch -M master
+  104  10/17/2025 14:32  git push -u origin main
+  106  10/17/2025 14:35  file test.txt
+  108  10/17/2025 14:35  group
+  112  10/17/2025 14:38  git add assigmnet/
+  113  10/17/2025 14:38  git commit -m "make assigment folder"
+  115  10/17/2025 14:39  git config --global credential.helper store\n
+  117  10/17/2025 14:40  mv zsh-syntax-highlighting ~
+  121  10/17/2025 14:40  git commit -m "clean"
+  123  10/17/2025 14:41  groups
+  126  10/17/2025 14:43  top
+  128  10/17/2025 14:43  apt get install htop
+  129  10/17/2025 14:43  apt-get install htop
+  130  10/17/2025 14:43  sudo apt-get install htop
+  136  10/17/2025 14:45  git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
+  145  10/17/2025 14:52  git log -p
+  155  10/17/2025 14:54  chmod o + w
+  156  10/17/2025 14:55  chmod o+w
+  157  10/17/2025 14:55  chmod o+w test.txt
+  159  10/17/2025 14:55  chmod o+x test.txt
+  161  10/17/2025 14:55  ./test.txt
+  162  10/17/2025 14:55  chmod o-x test.txt
+  164  10/17/2025 14:55  chmod o-w test.txt
+  167  10/17/2025 14:56  chmod o-r test.txt
+  169  10/17/2025 14:56  ls -l ex.c
+  170  10/17/2025 14:56  chmod o-r ex.c
+  200  10/17/2025 15:08  sls
+  210  10/17/2025 15:10  ^[[200~p10k configure~
+  211  10/17/2025 15:10  p10k configure
+  214  10/17/2025 15:11  pwd
+  215  10/17/2025 15:11  git diff
+  216  10/17/2025 15:12  git diff -p
+  220  10/17/2025 15:12  git commit -m "clean2"
+  221  10/17/2025 15:12  git push -u orgin master
+  224  10/17/2025 15:12  cd assigmnet
+  226  10/17/2025 15:12  cd //
+  228  10/17/2025 15:13  cd ~
+  229  10/17/2025 15:13  cd Desktop/OSS
+  231  10/17/2025 15:14  vi ~/.zshrc
+  232  10/17/2025 15:14  source ~/.zshrc
+  234  10/17/2025 15:15  ls-l
+  236  10/17/2025 15:16  chmod o=rwx
+  237  10/17/2025 15:16  chmod o=rwx ex.c
+  239  10/17/2025 15:17  chmod o-rwx ex.c
+  241  10/17/2025 15:17  histroy
+  242  10/17/2025 15:17  his
+  243  10/17/2025 15:17  htop
+  245  10/17/2025 15:18  chmod 700 ex.c
+  247  10/17/2025 15:18  chmod 777 ex.c
+  249  10/17/2025 15:19  chmod 711 ex.c
+  253  10/17/2025 15:19  chmod 766 test.txt
+  255  10/17/2025 15:20  chmod -p 700 assigmnet
+  256  10/17/2025 15:20  chmod --help
+  257  10/17/2025 15:20  chmod -R 700 assigmnet
+  259  10/17/2025 15:21  chmod 000 ex.c
+  261  10/17/2025 15:21  vi ex.c
+  262  10/17/2025 15:21  cat ec
+  263  10/17/2025 15:21  cat ex.c
+  264  10/17/2025 15:21  chmod 766 ex.c
+  266  10/17/2025 15:23  vi opp.text
+  269  10/17/2025 15:23  git commit -m "clean3"
+  270  10/17/2025 15:23  git push -u origin master
+  273  10/17/2025 15:28  git checkout -b 10-17
+  277  10/17/2025 15:32  chmod -R 777 assigmnet
+  279  10/17/2025 15:32  chmod -R 755 assigmnet
+  281  10/17/2025 15:32  ls -l assigmnet
+  282  10/17/2025 15:34  git branch -m 10-17 W6
+  283  10/17/2025 15:34  git branch -m 10-17-W6
+  284  10/17/2025 15:34  git branch -vv 
+  285  10/17/2025 15:34  git log --oneline --graph --decorate --all
+  290  10/17/2025 15:36  git rm ex.c
+  292  10/17/2025 15:37  git commit -m "make branch 10-17-w6"
+  295  10/17/2025 15:38  rm opp.text
+  297  10/17/2025 15:38  vi week6.txt
+  300  10/17/2025 15:38  chmod 666 test.txt
+  302  10/17/2025 15:40  mkdir temp
+  303  10/17/2025 15:40  chmod u-x temp
+  307  10/17/2025 15:40  chmod u+x temp
+  308  10/17/2025 15:42  history -w Desktop/OSS/temp 
+  309  10/17/2025 15:42  history Desktop/OSS/temp 
+  310  10/17/2025 15:42  history Desktop/OSS
+  311  10/17/2025 15:42  history -w temp
+  312  10/17/2025 15:43  history -W temp
+  314  10/17/2025 15:43  history --help
+  315  10/17/2025 15:43  history -help
+  316  10/17/2025 15:43  history -
+  318  10/17/2025 15:44  vi temp.new
+  319  10/17/2025 15:44  rm temp.new
+  321  10/17/2025 15:44  ls -l
+  322  10/17/2025 15:45  git status
+  323  10/17/2025 15:45  git log
+  324  10/17/2025 15:47  git add .
+  325  10/17/2025 15:48  git commit -m "modify"
+  326  10/17/2025 15:48  git push -u origin 10-17-W6
+  331  10/17/2025 16:20  ps -u 5534
+  332  10/17/2025 16:20  ps -u 5619
+  339  10/17/2025 16:26  git checkout 10-17-W6
+  342  10/17/2025 16:29  ps -ef
+  344  10/17/2025 16:29  ps -ef | grep -x zsh
+  345  10/17/2025 16:30  grep -x zsh
+  347  10/17/2025 16:30  grep zsh
+  348  10/17/2025 16:30  ps -ef | grep zsh
+  349  10/17/2025 16:30  ps -ef | grep bash
+  350  10/17/2025 16:31  python
+  351  10/17/2025 16:31  python asd
+  352  10/17/2025 16:31  apt get install python
+  353  10/17/2025 16:31  apt-get install python
+  354  10/17/2025 16:31  sudo apt-get install python
+  355  10/17/2025 16:31  sudo apt-get install python3
+  356  10/17/2025 16:31  python3
+  357  10/17/2025 16:32  ps -ef | pgrep zsh
+  358  10/17/2025 16:32  ps -ef | pgrep -x zsh
+  359  10/17/2025 16:32  ps -ef | pgrep -l zsh
+  360  10/17/2025 16:32  ps -ef | pgrep -t zsh
+  361  10/17/2025 16:32  ps -ef | pgrep -n zsh
+  363  10/17/2025 16:33  ps -ef | pgrep -x git
+  364  10/17/2025 16:33  ps -ef | pgrep git
+  365  10/17/2025 16:33  ls -l | pgrep txt
+  366  10/17/2025 16:33  ls -l | pgrep 
+  368  10/17/2025 16:34  cd temp
+  369  10/17/2025 16:34  l
+  371  10/17/2025 16:34  cd ..
+  374  10/17/2025 16:43  find
+  376  10/17/2025 16:44  fin test.txt
+  377  10/17/2025 16:44  find test.txt
+  378  10/17/2025 16:44  find test.txt &
+  379  10/17/2025 16:44  sleep 49385
+  381  10/17/2025 16:44  sleep 100&
+  384  10/17/2025 16:45  sleep 200&
+  387  10/17/2025 16:45  jobs sleep
+  391  10/17/2025 16:46  fg 1
+  401  10/17/2025 16:49  who am i
+  403  10/17/2025 16:49  id
+  404  10/17/2025 16:49  users
+  405  10/17/2025 16:50  who -H
+  407  10/17/2025 16:50  who -q
+  408  10/17/2025 16:50  w
+  410  10/17/2025 16:53  ops
+  412  10/17/2025 16:54  ps -e
+  413  10/17/2025 16:55  whoami
+  414  10/17/2025 16:55  ps -e | pgrep yujin_parl
+  415  10/17/2025 16:55  ps -e | pgrep yujin_park
+  416  10/17/2025 16:56  ps -f
+  417  10/17/2025 16:56  ps -ef | pgrep yujin_k
+  418  10/17/2025 16:56  ps -ef | pgrep yujin_
+  419  10/17/2025 16:56  ps -ef | pgrep yujin
+  420  10/17/2025 16:56  ps -f | pgrep yujin
+  421  10/17/2025 16:56  ps -u
+  422  10/17/2025 16:57  pgrep -l
+  423  10/17/2025 16:57  pgrep -l zsh
+  427  10/17/2025 17:00  kill 50580
+  430  10/17/2025 17:00  sleep 300
+  434  10/17/2025 17:00  kill 9 50705
+  435  10/17/2025 17:00  sudo kill 9 50705
+  437  10/17/2025 17:01  sudo kill 9 50692\
+  438  10/17/2025 17:01  sudo kill 9 50692
+  443  10/17/2025 17:03  kill 51298
+  447  10/17/2025 17:06  sleep 300&
+  452  10/17/2025 17:06  fg
+  454  10/17/2025 17:07  bg
+  455  10/17/2025 17:07  jobs
+  456  10/17/2025 17:07  kill 51451
+  457  10/17/2025 17:07  ;s
+  458  10/17/2025 17:07  ps
+  459  10/17/2025 17:08  who b
+  460  10/17/2025 17:09  who -b
+  461  10/17/2025 17:09  who
+  462  10/17/2025 17:10  su
+  463  10/17/2025 17:10  sudo su
+  465  10/17/2025 17:17  git checkout master
+  466  10/17/2025 17:17  git fetch origin
+  467  10/17/2025 17:17  git pull --ff-only
+  468  10/17/2025 17:17  ls
+  469  10/17/2025 17:18  history
