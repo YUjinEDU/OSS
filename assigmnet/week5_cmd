@@ -13,7 +13,6 @@ vim test.txt
 git add test.txt 
 git commit -m "4 commit"
 git log
-[200~그리고 다시 재부팅 해주면 끝이다.~
 그리고 다시 재부팅 해주면 끝이다.
 ls
 cd Desktop/
